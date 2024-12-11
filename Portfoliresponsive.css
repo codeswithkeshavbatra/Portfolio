@@ -1,0 +1,113 @@
+@media screen and (max-width:950px) and (min-width: 700px) {
+    nav {
+        height: 100px;
+    }
+
+    .nav-left {
+        font-size: 1rem;
+    }
+
+    .nav-right {
+        font-size: 0.8rem;
+    }
+
+    .purple {
+        font-size: 0.8rem;
+    }
+
+    .port-section .section-left {
+        font-size: 1.5rem
+    }
+
+}
+
+@media screen and (max-width:950px) and (min-width:320px) {
+    .port-section img {
+        width: 100%;
+        height: 50%;
+    }
+
+    nav {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #contact .contects-ids{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1167px) {
+    .amazone-description {
+        margin-left: 30px;
+    }
+
+    .currency-convertor-description {
+        margin-left: 30px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:780px) and (min-width:320px) {
+    #services .service-container {
+        flex-direction: column
+    }
+
+    .UI-UX {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .Web-designing, .UI-UX {
+        width: 100%;
+    }
+
+    .port-section .section-left {
+        font-size: 1rem
+    }
+
+    .nav-left {
+        font-size: medium;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .pc-laptop {
+        display: none;
+    }
+}
+
+@media screen and (max-width:720px) and (min-width:320px) {
+    .candy-crush, .holemole,.amazone, .tic-tac-toe , .jarvis, .currency-convertor, .amazone{
+        flex-wrap: wrap;
+    }
+
+    .port-section {
+        flex-wrap: wrap;
+    }
+
+    .close {
+        font-weight: 500;
+        display: block;
+    }
+
+    .currency-convertor img {
+        margin-left: 60px;
+    }
+
+    .amazone img {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width:360) and (min-width:320) {
+    
+    #contact .contects-ids {
+        font-size: small;
+    }
+}
+
